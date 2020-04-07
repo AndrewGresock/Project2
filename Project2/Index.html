@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Home</Title>
+        <style>
+            #seriesinfo{
+                border-style:solid;
+                border-width:5px;
+            }
+            #seriesinfo div{
+                display:inline-block;
+            }
+            #charmenu{
+                float:right;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Site Name</h1>
+        </header>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Choose a series</legend>
+                    <select id = "series">
+                        <option value = "series1">Series 1</option>
+                        <option value = "series2">Series 2</option>
+                        <option value = "series3">Series 3</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+        <div id = "seriesinfo">
+            <div>
+                <h1>Series Name</h1>
+                <p>Series Description</p>
+            </div>
+            <div>
+                <form id = charmenu>
+                    <fieldset>
+                        <legend>Chracter Bios</legend>
+                        <select id = "chars">
+                            <option value = "character1">Character 1</option>
+                            <option value = "character2">Character 2</option>
+                            <option value = "character3">Character 3</option>
+                        </select>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
